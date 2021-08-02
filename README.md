@@ -10,6 +10,9 @@
 2. Create your Python virtual environment and install NumPy and Compile OpenCV 4 from source [(Click Here for full details)](https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/)..
 
 3. Test the camera using this code [here full details with commenet]().
+  * Run the virtual environment 'workon cv'
+  * open the path file if you have svaed your py file in a directory using `cd` command, in my case I will run the folowing command `cd Face_Recognition/Face_Detection` 
+  * Run you camera test file by using `python` folowed by your file name, in my case `python Face_Detection.py`
   * 
 
-4. fl
+4. fl 
