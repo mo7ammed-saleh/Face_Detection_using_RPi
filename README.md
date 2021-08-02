@@ -13,6 +13,7 @@
   * Run the virtual environment 'workon cv'
   * open the path file if you have svaed your py file in a directory using `cd` command, in my case I will run the folowing command `cd Face_Recognition/Face_Detection` 
   * Run you camera test file by using `python` folowed by your file name, in my case `python Face_Detection.py`
-  * 
+  * I will use a usb camera as shown in the figure ()
+  * Tested resut will shoen an image in a gray and rgb color ()
 
 4. fl 
