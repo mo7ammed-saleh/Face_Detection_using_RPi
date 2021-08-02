@@ -1,4 +1,4 @@
- # Face Detection Using OpenCV with Raspberry Pi 
+ # Face Detection using OpenCV with Raspberry Pi 
 **This Repository will explain my 4th task in Robotics and AI department at [SMART METHODS](https://github.com/smart-methods) summer training.**
 
 ## Task Requirements: 
