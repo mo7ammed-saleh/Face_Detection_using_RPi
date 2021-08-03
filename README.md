@@ -14,10 +14,16 @@
    - Run the virtual environment `workon cv`
    - Open the path file if you have saved your .py file in a directory using `cd` command, in my case I will run the folowing command `cd Face_Recognition/Face_Detection` 
    - Run you camera test file by using `python` folowed by your file name, in my case `python Face_Detection.py`
-   - I will use a usb camera as shown in the figure: <p align='left'><img width="45%" src="https://github.com/mo7ammed-saleh/Face_Detection_using_RPi/blob/main/img/Camera_usage.jpg"/>
-    </p>
+   - I will use a usb camera as shown in the figure:
+     <p align='left'><img width="45%" src="https://github.com/mo7ammed-saleh/Face_Detection_using_RPi/blob/main/img/Camera_usage.jpg"/>
+     </p>
     
    - Tested result will show an image in a Gray and RGB color: <p align='left'><img width="90%" src="https://github.com/mo7ammed-saleh/Face_Detection_using_RPi/blob/main/img/Test_Camera.jpg"/> 
 
 4. **Face Detection:**
-   - To recognise a face we should captutre the face (detecte it).The most common way used to detect a face or any objects, is using the ["Haar Cascade classifier"](https://docs.opencv.org/3.3.0/d7/d8b/tutorial_py_face_detection.html) (It is a machine learning based approach where a cascade function is trained from a lot of positive and negative images. It is then used to detect objects in other images).To detect faces the algorithm needs a lot of positive images (images of faces) and negative images (images without faces) to train the classifier. Then we need to extract features from it. OpenCV comes with a trainer as well as a detector. If we want to train our classifier for any object like car, planes etc. we can use OpenCV to create one using ["Cascade Classifier Training"](https://docs.opencv.org/3.3.0/dc/d88/tutorial_traincascade.html).
+   - To recognise a face first we should captutre the face (detecte it).The most common way used to detect a face or any objects, is using the ["Haar Cascade classifier"](https://docs.opencv.org/3.3.0/d7/d8b/tutorial_py_face_detection.html) (It is a machine learning based approach where a cascade function is trained from a lot of positive and negative images. It is then used to detect objects in other images).To detect faces the algorithm needs a lot of positive images (images of faces) and negative images (images without faces) to train the classifier. Then we need to extract features from it. OpenCV comes with a trainer as well as a detector. If we want to train our classifier for any object like car, planes etc. we can use OpenCV to create one using ["Cascade Classifier Training"](https://docs.opencv.org/3.3.0/dc/d88/tutorial_traincascade.html).
+   - The good news is that OpenCV comes with a trainer as well as a detector.So, we will used it to detect faces. To see the code with full comments, [Click here](https://github.com/mo7ammed-saleh/Face_Detection_using_RPi/blob/main/Face_Recognition/Face_Detection/Face_Detection.py).
+   - As shown in the figure below my face was detected successfully:
+     <p align='left'><img width="60%" src="https://github.com/mo7ammed-saleh/Face_Detection_using_RPi/blob/main/img/Face_Detection_Result.jpg"/>
+     </p>
+  
