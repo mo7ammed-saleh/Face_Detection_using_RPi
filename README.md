@@ -32,7 +32,7 @@
      - Note that, on those cases, we will include the classifier function and rectangle draw inside the face loop, because there would be no sense to detect an eye outside of a face.
      - To see my code with full comments, [Click here](https://github.com/mo7ammed-saleh/Face_Detection_using_RPi/blob/main/Face_Recognition/Face_Detection/Face_Eye_Detection.py).
      - Tested Result:
-     <p align='left'><img width="45%" src="https://github.com/mo7ammed-saleh/Face_Detection_using_RPi/blob/main/img/Face_Eye_Detection_Result.jpg"/>
+     <p align='left'><img width="80%" src="https://github.com/mo7ammed-saleh/Face_Detection_using_RPi/blob/main/img/Face_Eye_Detection_Result.jpg"/>
      </p>
     
 
