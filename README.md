@@ -29,4 +29,5 @@
 
  5. **Face and Eye Detection:**
      - Now, lets detect the eyes of the face. To do that we should include the classifier for the [eyes](https://github.com/opencv/opencv/blob/4.5.3/data/haarcascades/haarcascade_eye.xml) as we did in the face detection.
-     - Not that, on those cases, we will include the classifier function and rectangle draw inside the face loop, because there would be no sense to detect an eye outside of a face.
+     - Note that, on those cases, we will include the classifier function and rectangle draw inside the face loop, because there would be no sense to detect an eye outside of a face.
+     - To see the code with full comments, [Click here](https://github.com/mo7ammed-saleh/Face_Detection_using_RPi/blob/main/Face_Recognition/Face_Detection/Face_Eye_Detection.py).
