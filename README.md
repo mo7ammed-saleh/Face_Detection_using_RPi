@@ -25,6 +25,8 @@
    - The good news is that OpenCV comes with a trainer as well as a detector and we will used it to detect faces. To see my code with comments, [Click here](https://github.com/mo7ammed-saleh/Face_Detection_using_RPi/blob/main/Face_Recognition/Face_Detection/Face_Detection.py).
    - As shown in the figure below my face was detected successfully:
      <p align='left'><img width="80%" src="https://github.com/mo7ammed-saleh/Face_Detection_using_RPi/blob/main/img/Face_Detection_Result.jpg"/>
+      
+      
      </p>
 
  5. **Face and Eye Detection:**
@@ -35,4 +37,4 @@
      <p align='left'><img width="80%" src="https://github.com/mo7ammed-saleh/Face_Detection_using_RPi/blob/main/img/Face_Eye_Detection_Result.jpg"/>
      </p>
     
-
+5. **Face Recognition**
